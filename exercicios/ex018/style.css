@@ -1,0 +1,14 @@
+@font-face {
+    font-family: love;
+    src: url(Lovely\ Valentine\ Sans.ttf)format(truetype) ;
+}
+@font-face {
+    font-family: amor;
+    src: url(LastChristmas_PERSONAL_USE_ONLY.otf)format(truetype) ;
+}
+body{
+   font-family: amor;
+}
+h2{
+    font-family: love;
+}
