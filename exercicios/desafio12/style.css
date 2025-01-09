@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
+ 
 .p1,.p2,.p3,.p4,.p5{
+    font-family: "Sriracha", serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.8;
-    font-size: 20px;
     font-size: 3.5vw;
 }
 nav {
@@ -16,9 +21,9 @@ nav {
    background-color: black;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 5vw;
+    font-variant: small-caps;
     
 }
 a{
@@ -86,6 +91,10 @@ footer > p > a{
     padding-left: 3px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    
     font-weight: 100;
     color: white;
+}
+a:hover{
+    text-decoration: underline;
 }
