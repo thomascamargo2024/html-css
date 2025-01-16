@@ -7,6 +7,24 @@
 </head>
 <body>
     <h1>exemplos de formularios</h1>
-    <form action=""></form>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="smasculino"><label for="smasculino">masculino</label>
+            <input type="radio" name="sexo" id="sfeminino"><label for="sfeminino">feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">futebol</label><br>
+            <input type="checkbox" name="esbasq" id="iesbasq"><label for="iesbasq">basquete</label><br>
+            <input type="checkbox" name="esvoley" id="iesvoley">voley<br>
+            <input type="checkbox" name="estenis" id="iestenis">tenis<br>
+            <input type="checkbox" name="esnat" id="iesnat">nataçao
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 </body>
 </html>
