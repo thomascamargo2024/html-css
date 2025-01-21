@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
             <menu id="itens">
-                <li>opçao1</li>
-                <li>opçao2</li>
-                <li>opçao3</li>
-                <li>opçao4</li>
-                <li>opçao5</li>
+                <ul>
+                    <li>opçao1</li>
+                    <li>opçao2</li>
+                    <li>opçao3</li>
+                    <li>opçao4</li>
+                    <li>opçao5</li>
+                </ul>
             </menu>
     </header>
     <main>
@@ -39,6 +42,14 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display ='block'
+                } else {
+                itens.style.display = 'none'
             }
         }
 

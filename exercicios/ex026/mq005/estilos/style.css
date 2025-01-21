@@ -11,7 +11,14 @@ body{
 }
 
 menu{
-    display: none;
+    margin-bottom: 10px;
+    display: block;
+    background-color: rgba(47, 79, 79, 0);
+}
+
+menu > ul{
+    list-style-type: none;
+    border-radius: 10px;
 }
 
 i#burguer{
@@ -30,6 +37,7 @@ i#burguer:hover{
 
 header{
     background-color: gray;
+    margin-bottom: 10px;
     
 }
 
@@ -43,14 +51,9 @@ li{
     list-style: none;
     background-color: rgb(61, 61, 61);
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     border-top: 1px solid  rgb(129, 129, 129);
     color: white;
-}
-
-ul{
-    height: 60px;
 }
 
 
@@ -65,7 +68,6 @@ main{
     background-color: white;
     width: 85vw;
     border-radius: 10px;
-    margin-top: 10px;
 }
 
 p{
